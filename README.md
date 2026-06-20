@@ -1,8 +1,8 @@
-# Biblioteca Digital - Integración de API REST
+# Mi Biblioteca - Integración de API REST
 
 ## Descripción
 
-Este documento describe la incorporación de una **API REST** en el sistema Biblioteca Digital. Esta mejora forma parte de la evolución arquitectónica del proyecto, permitiendo desacoplar el frontend del backend y exponer la lógica del sistema mediante servicios web.
+Este documento describe la incorporación de una **API REST** en el sistema Mi Biblioteca. Esta mejora forma parte de la evolución arquitectónica del proyecto, permitiendo desacoplar el frontend del backend y exponer la lógica del sistema mediante servicios web.
 
 ---
 
