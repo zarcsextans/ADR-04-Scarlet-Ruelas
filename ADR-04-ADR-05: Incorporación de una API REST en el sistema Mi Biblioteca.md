@@ -46,3 +46,13 @@ Se eligió REST porque:
 - Permite escalar el sistema sin depender de una sola interfaz
 
 ---
+## Alternativas consideradas
+
+| Alternativa | Por qué la descarté |
+|-------------|----------------------|
+| MVC sin API | Mantiene el sistema acoplado y dificulta la reutilización del backend |
+| SOAP | Es más complejo y pesado para el tipo de sistema que se está construyendo |
+| GraphQL | Aumenta la complejidad innecesariamente para el alcance académico actual |
+
+---
+
