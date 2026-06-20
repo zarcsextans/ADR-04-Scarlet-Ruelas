@@ -20,3 +20,18 @@ En versiones anteriores del proyecto, la aplicación estaba basada en MVC con pe
 Además, el proyecto debe alinearse con tecnologías vistas en clase como ASP.NET Core Web API y buenas prácticas de arquitectura moderna.
 
 ---
+## Decisión
+
+Se decidió incorporar una **API REST utilizando ASP.NET Core Web API** como capa de acceso principal a los datos del sistema Mi biblioteca.
+
+Esta API expone los recursos principales del sistema mediante endpoints HTTP:
+
+- Libros
+- Usuarios
+- Préstamos
+- Reservas
+- Pagos
+
+También se integró Swagger para documentación y prueba de los endpoints.
+
+---
