@@ -35,3 +35,14 @@ Esta API expone los recursos principales del sistema mediante endpoints HTTP:
 También se integró Swagger para documentación y prueba de los endpoints.
 
 ---
+## ¿Por qué?
+
+Se eligió REST porque:
+
+- Permite comunicación estándar entre cliente y servidor mediante HTTP
+- Facilita el desacoplamiento entre frontend (MVC o futuras apps) y backend
+- Es ampliamente utilizado en la industria del software
+- Es compatible con ASP.NET Core y su ecosistema de Web API
+- Permite escalar el sistema sin depender de una sola interfaz
+
+---
