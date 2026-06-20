@@ -76,3 +76,20 @@ Se eligió REST porque:
   Si el sistema crece, será necesario mejorar seguridad, versionamiento de API o incluso migrar a una arquitectura más avanzada (microservicios).
 
 ---
+## Diagrama
+
+```mermaid
+flowchart TD
+
+U[Usuario] --> MVC[Web MVC / Cliente]
+MVC --> API[ASP.NET Core Web API]
+
+API --> S[Capa de Servicios]
+S --> R[Repositorio]
+R --> DB[(Base de datos PostgreSQL)]
+
+S --> L[Libros]
+S --> U2[Usuarios]
+S --> P[Préstamos]
+S --> R2[Reservas]
+S --> PA[Pagos]
