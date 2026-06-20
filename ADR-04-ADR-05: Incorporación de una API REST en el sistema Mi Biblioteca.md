@@ -55,4 +55,24 @@ Se eligió REST porque:
 | GraphQL | Aumenta la complejidad innecesariamente para el alcance académico actual |
 
 ---
+## Consecuencias
 
+### ✅ Lo que gano:
+
+- **Consecuencia técnica:**  
+  El sistema se vuelve más escalable y modular, permitiendo que diferentes clientes (web, móvil o externos) consuman la misma lógica de negocio a través de la API.
+
+- **Consecuencia sobre el proceso:**  
+  La arquitectura obliga a separar responsabilidades entre controladores, servicios y repositorios, mejorando el orden del proyecto y facilitando el mantenimiento.
+
+---
+
+### ⚠️ Lo que sacrifico o asumo:
+
+- **Limitación técnica:**  
+  Se incrementa la complejidad del proyecto al introducir una capa adicional (API) que debe ser configurada y mantenida.
+
+- **Riesgo o deuda técnica:**  
+  Si el sistema crece, será necesario mejorar seguridad, versionamiento de API o incluso migrar a una arquitectura más avanzada (microservicios).
+
+---
